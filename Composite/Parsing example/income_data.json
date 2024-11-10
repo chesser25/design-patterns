@@ -1,0 +1,75 @@
+{
+    "company": {
+      "name": "TechCorp",
+      "departments": [
+        {
+          "name": "Engineering",
+          "manager": "Alice Johnson",
+          "employees": [
+            {
+              "id": 101,
+              "name": "John Doe",
+              "role": "Software Engineer",
+              "projects": [
+                {
+                  "projectName": "Project Alpha",
+                  "deadline": "2024-05-12"
+                },
+                {
+                  "projectName": "Project Beta",
+                  "deadline": "2024-11-30"
+                }
+              ]
+            },
+            {
+              "id": 102,
+              "name": "Emma Green",
+              "role": "DevOps Engineer",
+              "projects": [
+                {
+                  "projectName": "Infrastructure Overhaul",
+                  "deadline": "2024-08-01"
+                }
+              ]
+            }
+          ],
+          "subDepartments": [
+            {
+              "name": "Software Development",
+              "manager": "Michael Brown",
+              "employees": [
+                {
+                  "id": 103,
+                  "name": "Sophia Lee",
+                  "role": "Frontend Developer",
+                  "projects": [
+                    {
+                      "projectName": "Website Redesign",
+                      "deadline": "2024-04-20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Human Resources",
+          "manager": "Sarah Adams",
+          "employees": [
+            {
+              "id": 201,
+              "name": "David Wilson",
+              "role": "HR Specialist",
+              "tasks": [
+                {
+                  "taskName": "Hiring Drive",
+                  "deadline": "2024-03-01"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
