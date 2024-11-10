@@ -1,0 +1,30 @@
+[
+    {
+      "Engineering": {
+        "departmentName": "Engineering",
+        "manager": "Alice Johnson",
+        "employeesCount": 2,
+        "activeProjects": "",
+        "subdepartments": [
+          {
+            "Software Development": {
+              "departmentName": "Software Development",
+              "manager": "Michael Brown",
+              "employeesCount": 1,
+              "activeProjects": "",
+              "subdepartments": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Human Resources": {
+        "departmentName": "Human Resources",
+        "manager": "Sarah Adams",
+        "employeesCount": 1,
+        "activeProjects": "",
+        "subdepartments": []
+      }
+    }
+  ]
