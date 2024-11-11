@@ -1,8 +1,8 @@
 <?php
+    require_once __DIR__ . '/ComplexComponent.php';
     require_once __DIR__ . '/Component.php';
-    require_once __DIR__ . '/Leaf.php';
 
-    class Folder extends Component
+    class Folder extends ComplexComponent
     {
         private string $name;
         public function __construct(string $name)
@@ -13,12 +13,12 @@
         public function getSize(): float
         {
             $totalSize = 0;
-            foreach ($this->leaves as $leaf) {
-                if (false === $leaf instanceof Leaf) {
+            foreach ($this->components as $component) {
+                if (false === $component instanceof Component) {
                     throw new Exception('Invalid instance');
                 }
 
-                $totalSize += $leaf->getSize();
+                $totalSize += $component->getSize();
             }
 
             return $totalSize;

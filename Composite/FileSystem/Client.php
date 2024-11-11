@@ -2,7 +2,7 @@
     require_once __DIR__ . '/File.php';
     require_once __DIR__ . '/Folder.php';
 
-    $firstFile = new File('first file', 1);
+    $firstFile = new File('first file', 2);
     $secondFile = new File('second file', 5);
     $innerFolder = new Folder('inner folder');
     $innerFolder->add($firstFile);

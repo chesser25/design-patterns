@@ -1,7 +1,7 @@
 <?php
-    require_once __DIR__ . '/Leaf.php';
+    require_once __DIR__ . '/Component.php';
 
-    class File implements Leaf
+    class File implements Component
     {
         private string $name;
         private float $size;
